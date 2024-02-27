@@ -1,5 +1,10 @@
-# Recurion problem 1 of 2: Power calculator
+# Recursion Drills
 
+============================================
+
+# Problem 1 of 4: Power calculator
+
+============================================
 In this challenge, you will solve several algorithmic problems using recursion. The objective is to practice using recursion to think about and solve problems. You do not have to worry about the efficiency of your solutions.
 
 > *Note: If downloading the assessment files to your local machine, make sure you're running Node v18 before you run* `npm install`.
@@ -31,7 +36,61 @@ If the exponent is negative, throw an Error with the message `exponent should b
 - `power(10,2)` should return `100`.
 - `power(10,-2)` throw Error `exponent should be >= 0`.
 
-# Recurion problem 1 of 2: Maze
+============================================
+
+# Problem 2 of 4: Reverse string
+
+============================================
+
+In this challenge, you will solve a problem using recursion. The objective is to practice using recursion to think about and solve problems. You do not have to worry about the efficiency of your solutions.
+
+> *Note: If downloading the assessment files to your local machine, make sure you're running Node v18 before you run* `npm install`.
+>
+> 1.  *Check which version you are running:* `node -v`
+> 2.  *If needed, change the version to v18:* `nvm use v18`
+>
+> _For additional help, review the "Learn your tools: Visual Studio Code" lesson in the "Welcome" module._
+
+## Existing files
+
+| File                        | Description                                                                                         |
+| --------------------------- | --------------------------------------------------------------------------------------------------- |
+| `__tests__/reverse.test.js` | Contains tests for the reverse problem. You are welcome to look at this file, but do not modify it. |
+| `src/reverse.js`            | Write your solutions to the reverse string problem in this file.                                    |
+
+## Reverse string
+
+Write a function that reverses a string. Take a string as input, reverse the string, and return the new string. For example, given the string `"thinkful"`, return the string `"lufkniht"`.
+
+============================================
+
+# Recurion problem 3 of 4: Fibonacci
+
+============================================
+
+In this challenge, you will solve a problem using recursion. The objective is to practice using recursion to think about and solve problems. You do not have to worry about the efficiency of your solutions.
+
+> *Note: If downloading the assessment files to your local machine, make sure you're running Node v18 before you run* `npm install`.
+>
+> 1.  *Check which version you are running:* `node -v`
+> 2.  *If needed, change the version to v18:* `nvm use v18`
+>
+> _For additional help, review the "Learn your tools: Visual Studio Code" lesson in the "Welcome" module._
+
+## Existing files
+
+| File                          | Description                                                                                           |
+| ----------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `__tests__/fibonacci.test.js` | Contains tests for the Fibonacci problem. You are welcome to look at this file, but do not modify it. |
+| `src/fibonacci.js`            | Write your solutions to the Fibonacci problem in this file.                                           |
+
+## Fibonacci
+
+Write a recursive function that prints the Fibonacci sequence of a given number. The Fibonacci sequence is a series of numbers in which each number is the sum of the 2 preceding numbers. The 0th Fibonacci number is defined as 0, and the 1st Fibonacci number is defined as 1. For example, the 7th Fibonacci number in a Fibonacci sequence is 13. The sequence looks as follows: 0, 1, 1, 2, 3, 5, 8, 13... .
+
+============================================
+
+# Problem 4 of 4: Maze
 
 ============================================
 
